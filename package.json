@@ -1,5 +1,5 @@
 {
-  "name": "store",
+  "name": "action-state-manager",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "build": "webpack-cli --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "kostayne (github)",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
