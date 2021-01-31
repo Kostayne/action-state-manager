@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "lib",
+        "jsx": "react"
+    },
+    "include": ["src"]
+}

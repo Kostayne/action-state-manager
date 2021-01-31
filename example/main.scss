@@ -1,0 +1,59 @@
+:root {
+    --light: #B8C3FF;
+    --dark: #343434;
+}
+
+body {
+    color: white;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.app {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.light {
+    background: var(--light) !important;
+}
+
+.dark {
+    background: var(--dark);
+}
+
+.header {
+    background: var(--dark);
+    height: 100px;
+}
+.header__text {
+    display: block;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.content {
+    flex-grow: 1;
+    background: var(--dark);
+    margin: 15px;
+}
+.content__text {
+    display: block;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.footer {
+    background: var(--dark);
+    height: 100px;
+}
+.footer__text {
+    display: block;
+    margin-left: 15px;
+    margin-top: 35px;
+}
